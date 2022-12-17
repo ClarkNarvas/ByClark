@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "Minesh Parekh for City Council"
-description: "Sheffield Transformed "
-date:   2022-05-05 07:44:56 +0000
-skill: 'Website Development, Social Media Management, Video Production'
-img: '/img/minesh slide.png'
+title:  "Sheffield City Council: Skills & Opportunity Service"
+description: "Opportunity Sheffield"
+date:   2022-07-01 07:44:56 +0000
+skill: 'Social Media Management, Video Production'
+img: '/img/SCC.png'
 ---
 
 <div class="ratio ratio-16x9 mb-5">

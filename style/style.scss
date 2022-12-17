@@ -71,7 +71,7 @@ a:hover {
 
   .img-imgcard {
     transition: 0.5 ease-in-out;
-    background-image: url('/assets/branding/placeholder.png') !important;
+    background-image: url('/assets/branding/placeholder.png');
     background-size: 100%;
     border-radius: 10px;
     background-position: center;
@@ -82,10 +82,11 @@ a:hover {
   .content-imgcard {
     height: auto;
     padding-top: 20px;
-    width: 60%;
+    width: 80%;
     transition: 0.3s ease-in-out;
     background-color: white;
     margin-top: -50px;
+    padding-right: 20px;
     z-index: 40 !important;
     
     span {
@@ -149,4 +150,11 @@ a:hover {
   margin-left: auto;
   margin-right: auto;
 
+}
+
+.img-dims {
+  img {
+    width: 100%;
+    height: auto;
+  }
 }
