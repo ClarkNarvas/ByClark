@@ -10976,7 +10976,6 @@ a:hover .bi-arrow-right {
   height: 70px;
   padding-top: 15px;
   padding-bottom: 15px;
-  border-bottom: 1px rgb(210, 210, 210) solid;
 }
 #header a.clarknarvasheader {
   font-size: 150%;
@@ -11043,4 +11042,10 @@ a:hover .bi-arrow-right {
 
 .tac {
   text-align: center;
+}
+
+.container-narrow {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
 }/*# sourceMappingURL=style.css.map */
