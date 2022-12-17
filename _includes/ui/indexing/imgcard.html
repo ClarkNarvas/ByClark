@@ -1,11 +1,16 @@
-<div class="imgcard">
-    <div class="img-imgcard">
+<div class="col-md-3 p-3">
 
+    <div class="imgcard ratio ratio-1x1">
+        <div class="img-imgcard ">
+
+        </div>
+
+        <div class="content-imgcard">
+            <span class="card-title">{{post.title}}</span>
+            <span class="card-description">{{post.description}}</span>
+            <span class="card-miscinfo">{{post.date | date: "%b %Y"}} // {{post.skill}} {% if post.role %} {{post.role}} {%endif%}</span>
+            <span class="card-CTA">Learn more about project <i class="bi bi-arrow-right"></i></span> 
+        </div>
     </div>
 
-    <div class="content-imgcard">
-        <span class="card-title">{{post.title}}</span>
-        <span class="card-description">{{post.description}}</span>
-        <span class="card-miscinfo">{{post.date}} // {{post.skill}} {% if post.role %} {{post.role}} {%endif%}</span>
-    </div>
 </div>

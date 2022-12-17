@@ -1,4 +1,6 @@
 @import "node_modules/bootstrap/scss/bootstrap";
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css");
+
 
 $primaryColour: #2768FF;
 
@@ -36,6 +38,10 @@ a {
 }
 a:hover {
     color: #122f74;
+    .bi-arrow-right {
+      transition: 0.3s ease-in-out;
+      padding-left: 5px;
+    }
 }
 
 #header {
@@ -56,4 +62,78 @@ a:hover {
 
         color: $primaryColour !important;
     }
+}
+
+
+.imgcard {
+  transition: 0.3s ease-in-out !important;
+  font-size: 120%;
+  background-image: url('/assets/branding/JW2.png');
+  background-size: 100%;
+  border-radius: 20px;
+  background-position: center;
+  
+
+  .content-imgcard {
+    background-color: white;
+    height: auto;
+    padding: 20px;
+    width: 60%;
+    transition: 0.3s ease-in-out;
+    
+    span {
+      display: block;
+    }
+    .card-title {
+      font-size: 120%;
+      font-family: BoldFont;
+    }
+
+    .card-miscinfo {
+      font-size: 80%;
+      color: rgb(177, 177, 177);
+    }
+
+    .card-CTA {
+      transition: 0.3s ease-in-out;
+      font-size: 80%;
+      padding-top: 15px;
+      color: $primaryColour;
+      text-decoration-line: underline;
+      .bi-arrow-right {
+        transition: 0.3s ease-in-out;
+      }
+    }
+    
+  }
+  
+
+}
+
+.imgcard:hover {
+  transition: 0.5s ease-in-out;
+
+  background-size: 120%;
+
+  .card-CTA {
+    text-decoration: none;
+    
+  }
+
+
+
+}
+
+.imgcard:focus {
+  transition: 0.2s ease-in-out;
+  .content-imgcard {
+    width: 90%;
+  }
+
+
+
+}
+
+.tac {
+  text-align: center;
 }

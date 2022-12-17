@@ -1,7 +1,19 @@
 {% include core/top.html %}
 {% include coreui/header.html %}
 
+<div class="container">
+    <div class="row justify-content-center" style="">
 
 
+        {% for post in site.posts limit:4%}
+            {% include ui/indexing/imgcard.html %}
+        {% endfor %}
+    </div>
+
+
+    <div class="tac mt-3">
+    <a href="#" style="font-size: 150%;">See more of my work <i class="bi bi-arrow-right"></i></a>
+    </div>
+</div>
 {% include components/mail.html %}
 {% include core/bottom.html %}
