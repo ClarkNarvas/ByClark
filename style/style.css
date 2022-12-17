@@ -10988,25 +10988,31 @@ a:hover .bi-arrow-right {
 }
 
 .imgcard {
-  transition: 0.3s ease-in-out !important;
   font-size: 120%;
-  background-image: url("/assets/branding/JW2.png");
+}
+.imgcard .img-imgcard {
+  transition: 0.5 ease-in-out;
+  background-image: url("/assets/branding/placeholder.png") !important;
   background-size: 100%;
-  border-radius: 20px;
+  border-radius: 10px;
   background-position: center;
+  z-index: -50;
 }
 .imgcard .content-imgcard {
-  background-color: white;
   height: auto;
-  padding: 20px;
+  padding-top: 20px;
   width: 60%;
   transition: 0.3s ease-in-out;
+  background-color: white;
+  margin-top: -50px;
+  z-index: 40 !important;
+  transition: 0.3s ease-in-out !important;
 }
 .imgcard .content-imgcard span {
   display: block;
 }
 .imgcard .content-imgcard .card-title {
-  font-size: 120%;
+  font-size: 140%;
   font-family: BoldFont;
 }
 .imgcard .content-imgcard .card-miscinfo {
@@ -11014,30 +11020,27 @@ a:hover .bi-arrow-right {
   color: rgb(177, 177, 177);
 }
 .imgcard .content-imgcard .card-CTA {
-  transition: 0.3s ease-in-out;
   font-size: 80%;
   padding-top: 15px;
   color: #2768FF;
   -webkit-text-decoration-line: underline;
           text-decoration-line: underline;
+  transition: 0.3s ease-in-out;
 }
 .imgcard .content-imgcard .card-CTA .bi-arrow-right {
   transition: 0.3s ease-in-out;
 }
 
-.imgcard:hover {
+.imgcard:hover .content-imgcard {
+  transform: translateY(-20px);
+}
+
+.img-imgcard:hover {
   transition: 0.5s ease-in-out;
   background-size: 120%;
 }
-.imgcard:hover .card-CTA {
+.img-imgcard:hover .card-CTA {
   text-decoration: none;
-}
-
-.imgcard:focus {
-  transition: 0.2s ease-in-out;
-}
-.imgcard:focus .content-imgcard {
-  width: 90%;
 }
 
 .tac {

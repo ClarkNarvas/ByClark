@@ -65,26 +65,34 @@ a:hover {
 
 
 .imgcard {
-  transition: 0.3s ease-in-out !important;
+  
   font-size: 120%;
-  background-image: url('/assets/branding/JW2.png');
-  background-size: 100%;
-  border-radius: 20px;
-  background-position: center;
   
 
+  .img-imgcard {
+    transition: 0.5 ease-in-out;
+    background-image: url('/assets/branding/placeholder.png') !important;
+    background-size: 100%;
+    border-radius: 10px;
+    background-position: center;
+    z-index: -50;
+  }
+
+  
   .content-imgcard {
-    background-color: white;
     height: auto;
-    padding: 20px;
+    padding-top: 20px;
     width: 60%;
     transition: 0.3s ease-in-out;
+    background-color: white;
+    margin-top: -50px;
+    z-index: 40 !important;
     
     span {
       display: block;
     }
     .card-title {
-      font-size: 120%;
+      font-size: 140%;
       font-family: BoldFont;
     }
 
@@ -94,7 +102,7 @@ a:hover {
     }
 
     .card-CTA {
-      transition: 0.3s ease-in-out;
+      
       font-size: 80%;
       padding-top: 15px;
       color: $primaryColour;
@@ -102,16 +110,23 @@ a:hover {
       .bi-arrow-right {
         transition: 0.3s ease-in-out;
       }
+      transition: 0.3s ease-in-out;
     }
-    
+
+    transition: 0.3s ease-in-out !important;
   }
   
 
 }
 
 .imgcard:hover {
-  transition: 0.5s ease-in-out;
+  .content-imgcard {
+    transform:translateY(-20px);
+  }
+}
 
+.img-imgcard:hover {
+  transition: 0.5s ease-in-out;
   background-size: 120%;
 
   .card-CTA {
@@ -123,15 +138,7 @@ a:hover {
 
 }
 
-.imgcard:focus {
-  transition: 0.2s ease-in-out;
-  .content-imgcard {
-    width: 90%;
-  }
 
-
-
-}
 
 .tac {
   text-align: center;
