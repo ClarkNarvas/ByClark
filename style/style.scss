@@ -1,1 +1,59 @@
-@import "bootstrap"; 
+@import "node_modules/bootstrap/scss/bootstrap";
+
+$primaryColour: #2768FF;
+
+/** Fonts **/
+@font-face {
+    font-family: ParagraphFont;
+    src: url(/assets/fonts/Metropolis-Medium.woff);
+  }
+
+  @font-face {
+    font-family: HeadingFont;
+    src: url(/assets/fonts/Metropolis-ExtraBold.woff);
+  }
+
+  @font-face {
+    font-family: BoldFont;
+    src: url(/assets/fonts/Metropolis-Bold.woff);
+  }
+
+  @font-face {
+    font-family: BlackFont;
+    src: url(/assets/fonts/Metropolis-Black.woff);
+  }
+
+body {
+    font-family: ParagraphFont;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: BoldFont;
+}
+
+a {
+    color: #2768FF;
+}
+a:hover {
+    color: #122f74;
+}
+
+#header {
+    text-align: center;
+    height: 70px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px rgb(210, 210, 210) solid;
+    
+    a.clarknarvasheader {
+        font-size: 150%;
+        text-decoration: none;
+        color: black;
+        font-family: 'BoldFont';
+    }
+
+    a.clarknarvasheader:hover {
+
+        color: $primaryColour !important;
+    }
+}
