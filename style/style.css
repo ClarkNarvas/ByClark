@@ -11057,4 +11057,7 @@ a:hover .bi-arrow-right {
 .img-dims img {
   width: 100%;
   height: auto;
+}
+.img-dims h1, .img-dims .h1, .img-dims h2, .img-dims .h2, .img-dims h3, .img-dims .h3, .img-dims h4, .img-dims .h4, .img-dims h5, .img-dims .h5 {
+  margin-top: 50px;
 }/*# sourceMappingURL=style.css.map */
