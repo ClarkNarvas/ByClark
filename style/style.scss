@@ -35,6 +35,9 @@ h1, h2, h3, h4, h5 {
 
 a {
     color: #2768FF;
+    .bi-arrow-right {
+      transition: 0.3s ease-in-out;
+    }
 }
 a:hover {
     color: #122f74;
@@ -65,17 +68,19 @@ a:hover {
 
 
 .imgcard {
+  transition: 0.5s ease-in-out;
   
   font-size: 120%;
   
 
   .img-imgcard {
-    transition: 0.5 ease-in-out;
     background-image: url('/assets/branding/placeholder.png');
     background-size: 100%;
     border-radius: 10px;
     background-position: center;
     z-index: -50;
+
+    
   }
 
   
@@ -83,7 +88,6 @@ a:hover {
     height: auto;
     padding-top: 20px;
     width: 80%;
-    transition: 0.3s ease-in-out;
     background-color: white;
     margin-top: -50px;
     padding-right: 20px;
@@ -124,20 +128,15 @@ a:hover {
   .content-imgcard {
     transform:translateY(-20px);
   }
+
 }
 
-.img-imgcard:hover {
+.imgcard:active {
   transition: 0.5s ease-in-out;
-  background-size: 120%;
-
-  .card-CTA {
-    text-decoration: none;
-    
-  }
-
-
+  transform:scale(0.9);
 
 }
+
 
 
 
