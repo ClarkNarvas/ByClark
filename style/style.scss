@@ -1,47 +1,75 @@
+$primary_t1: #DE3C4B;
+$primary_t2: #c52130;
+$primary_t3: #f4c3c7;
+$primary_t4: #f8d9db;
+$primary_t5: #881721;
+$primary_t6: #b81f2d;
+$primary_t7: #d22333;
+$primary_t8: #5c0f16;
+$primary_t9: #fbeaec;
+
+$primary_shadow: rgba(222, 60, 75, 0.5);
+$primary_text_color_dark_bright: #fff;
+
+$secondary_t1: #D7C0D0;
+$secondary_t2: #c3a0b8;
+
+$secondary_shadow: rgba(215, 192, 208, 0.5);
+$secondary_text_color_dark_bright: #212529;
+
+$tertiary: #EFF0D1;
+
+.bg-primary {
+  background-color: $primary_t1 !important;
+}
+
+.bg-secondary {
+  background-color: $secondary_t1 !important;
+}
+
+.bg-tertiary {
+  background-color: $tertiary !important;
+}
 
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css");
 @import "node_modules/bootstrap/dist/css/bootstrap.css";
+@import url("https://use.typekit.net/meh5uoe.css");
 
 
-$primaryColour: #2768FF;
 
-/** Fonts **/
-@font-face {
-    font-family: ParagraphFont;
-    src: url(/assets/fonts/Metropolis-Medium.woff);
-  }
-
-  @font-face {
-    font-family: HeadingFont;
-    src: url(/assets/fonts/Metropolis-ExtraBold.woff);
-  }
-
-  @font-face {
-    font-family: BoldFont;
-    src: url(/assets/fonts/Metropolis-Bold.woff);
-  }
-
-  @font-face {
-    font-family: BlackFont;
-    src: url(/assets/fonts/Metropolis-Black.woff);
-  }
 
 body {
-    font-family: ParagraphFont;
+  font-family: "elza", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
+.thinner {
+  font-weight: 400;
+}
+
+.special {
+  font-family: "desire-pro", serif;
+  font-weight: 400;
+}
+
+
+
 h1, h2, h3, h4, h5 {
-    font-family: BoldFont;
+  font-family: "elza", sans-serif;
+  font-weight: 900;
+  font-style: normal;
 }
 
 a {
-    color: #2768FF;
+    color: #DE3C4B; 
     .bi-arrow-right {
       transition: 0.3s ease-in-out;
     }
 }
+
 a:hover {
-    color: #122f74;
+    color: #9a2632;
     .bi-arrow-right {
       transition: 0.3s ease-in-out;
       padding-left: 5px;
@@ -58,28 +86,26 @@ a:hover {
         font-size: 150%;
         text-decoration: none;
         color: black;
-        font-family: 'BoldFont';
+        font-family: "elza", sans-serif;
     }
 
     a.clarknarvasheader:hover {
 
-        color: $primaryColour !important;
+        color: $primary_t1 !important;
     }
 }
 
 
 .imgcard {
   transition: 0.5s ease-in-out;
-  
   font-size: 120%;
   
 
   .img-imgcard {
     background-image: url('/assets/branding/placeholder.png');
     background-size: 100%;
-    border-radius: 10px;
     background-position: center;
-    z-index: -50;
+    z-index: -1;
 
     
   }
@@ -92,14 +118,16 @@ a:hover {
     background-color: white;
     margin-top: -50px;
     padding-right: 20px;
-    z-index: 40 !important;
+    z-index: 500 !important;
+    position: relative;
     
     span {
       display: block;
     }
     .card-title {
       font-size: 140%;
-      font-family: BoldFont;
+      font-family: "elza", sans-serif;
+      font-weight: 700;
     }
 
     .card-miscinfo {
@@ -111,7 +139,7 @@ a:hover {
       
       font-size: 80%;
       padding-top: 15px;
-      color: $primaryColour;
+      color: $primary_t1;
       text-decoration-line: underline;
       .bi-arrow-right {
         transition: 0.3s ease-in-out;
@@ -129,7 +157,6 @@ a:hover {
   .content-imgcard {
     transform:translateY(-20px);
   }
-
 }
 
 .imgcard:active {
@@ -162,3 +189,27 @@ a:hover {
     margin-top: 50px;
   }
 }
+
+.showcase-header-text {
+  height: 60vh;
+  display: grid;
+  .container-narrow {
+    margin-top: auto;
+    margin-bottom: auto;
+
+    .name-role {
+      font-size: 2em;
+      font-weight: 500;
+    }
+
+    h1 {
+      font-size: 4.5em;
+    }
+
+    p {
+      font-size: 1.5em;
+    }
+  }
+}
+
+

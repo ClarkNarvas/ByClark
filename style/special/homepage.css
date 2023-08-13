@@ -153,4 +153,102 @@ a:hover .bi-arrow-right {
 }
 .showcase-header-text .container-narrow p {
   font-size: 1.5em;
-}/*# sourceMappingURL=style.css.map */
+}
+
+.content {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.content-container {
+  display: grid;
+  height: 100%;
+  width: 100%;
+}
+
+.home-slide-topbar {
+  margin-bottom: -60px;
+}
+
+.home-slide-topbar-content {
+  display: flex;
+  justify-content: flex-start;
+  overflow: hidden;
+  color: white;
+}
+.home-slide-topbar-content h2 {
+  white-space: nowrap !important;
+  color: black;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 50px;
+  animation: slidinganimation 20s infinite linear;
+}
+
+#home-slide-1 {
+  min-height: 100vh;
+}
+#home-slide-1 .container-fluid {
+  background: url("/img/newbg.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 100vh;
+  display: grid;
+}
+#home-slide-1 .container-fluid .content {
+  text-align: center;
+}
+#home-slide-1 .container-fluid .content #newspaper-box {
+  text-align: left;
+  border: 2px solid black;
+  padding: 20px;
+  max-width: 550px;
+  max-height: 20vh;
+  margin-left: auto;
+  margin-right: auto;
+}
+#home-slide-1 .container-fluid .content .thinner {
+  font-size: 1.5em;
+}
+#home-slide-1 .container-fluid .content .special {
+  font-size: 3em;
+}
+
+.home-slide {
+  min-height: 60vh;
+}
+.home-slide .col-md-6 .content-container {
+  min-height: 60vh;
+  display: grid;
+}
+.home-slide .col-md-6 .content-container .content {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.home-slide .col-md-6 .content-container .content h2 {
+  font-size: 6em;
+}
+.home-slide .col-md-6 .content-container .content p {
+  font-size: 1.5em;
+}
+.home-slide .home-slide-CTA-side {
+  background-color: rgba(0, 0, 0, 0.103);
+}
+
+@keyframes slidinganimation {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+.card-title {
+  color: black !important;
+}
+
+.text-light .home-slide-topbar .home-slide-topbar-content {
+  color: white !important;
+}/*# sourceMappingURL=homepage.css.map */

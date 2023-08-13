@@ -2,8 +2,9 @@
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
-layout: page
+layout: newhome
 title: Welcome to By Clark
+css: "/style/special/homepage.css"
 ---
 
 Hi there! - I'm Clark Narvas, I code/produce/design many types of digital media to create lasting, positive change.

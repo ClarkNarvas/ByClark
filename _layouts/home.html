@@ -2,16 +2,17 @@
 {% include coreui/header.html %}
 
 
+{% include components/showcase/showcase-header-text.html title="Create something meaningful" description="I offer content creation, strategy and design services to non-profits, political campaigns and businesses. " %}
+
+
 
 <div class="container">
-    HI, I'M CLARK NARVAS
-    <h1 class="mb-5 mt-2">I code/produce/design many types of digital media to create lasting, positive change.</h1>
-    <div class="row justify-content-center gy-5" style="">
-
+    <div class="row">
 
         {% for post in site.projects limit:4%}
             {% include ui/indexing/imgcard.html %}
         {% endfor %}
+    </div>
     </div>
 
 
