@@ -171,10 +171,6 @@ a:hover .bi-arrow-right {
   border-radius: 0 !important;
 }
 
-.btn:hover {
-  transition: linear 0.2s;
-}
-
 .dark-card {
   background-color: #3E404F;
 }
@@ -191,7 +187,7 @@ a:hover .bi-arrow-right {
 }
 
 .home-slide-topbar {
-  margin-bottom: -60px;
+  margin-bottom: -67px;
 }
 
 .home-slide-topbar-content {
@@ -201,12 +197,13 @@ a:hover .bi-arrow-right {
   color: white;
 }
 .home-slide-topbar-content h2 {
+  opacity: 0.5;
   white-space: nowrap !important;
   color: black;
   padding-top: 10px;
   padding-bottom: 10px;
   padding-right: 50px;
-  animation: slidinganimation 20s infinite linear;
+  animation: slidinganimation 35s infinite linear;
 }
 
 #home-slide-1 {
@@ -252,7 +249,7 @@ a:hover .bi-arrow-right {
   margin-bottom: auto;
 }
 .home-slide .col-md-6 .content-container .content h2 {
-  font-size: 6em;
+  font-size: 5em;
 }
 .home-slide .col-md-6 .content-container .content p {
   font-size: 1.5em;
@@ -269,6 +266,9 @@ a:hover .bi-arrow-right {
     transform: translateX(-100%);
   }
 }
-.text-light .home-slide-topbar .home-slide-topbar-content {
+.bg-primary {
+  color: white;
+}
+.bg-primary .home-slide-topbar .home-slide-topbar-content h2 {
   color: white !important;
 }/*# sourceMappingURL=homepage.css.map */

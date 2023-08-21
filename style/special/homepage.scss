@@ -16,7 +16,7 @@
 }
 
 .home-slide-topbar {
-    margin-bottom: -60px;
+    margin-bottom: -67px;
 }
 
 .home-slide-topbar-content {
@@ -26,12 +26,13 @@
     color: white;
     
     h2 {
+        opacity: 0.5;
         white-space: nowrap !important;
         color: black;
         padding-top: 10px;
         padding-bottom: 10px;
         padding-right: 50px;
-        animation: slidinganimation 20s infinite linear;
+        animation: slidinganimation 35s infinite linear;
     }
 }
 #home-slide-1 {
@@ -88,7 +89,7 @@
                 margin-top: auto;
                 margin-bottom: auto;
                 h2 {
-                    font-size: 6em;
+                    font-size: 5em;
                 }
 
                 p {
@@ -99,6 +100,8 @@
 
 
     }
+
+
 
     
     .home-slide-CTA-side {
@@ -122,10 +125,17 @@
 
 
 
-.text-light {
+
+.bg-primary {
+    color: white;
     .home-slide-topbar {
         .home-slide-topbar-content {
-            color: white !important;
+            h2 {
+                color: white !important;
+            }
+            
         }
     }
+
 }
+
