@@ -13,6 +13,11 @@
   background-color: #EFF0D1 !important;
 }
 
+.card {
+  border-radius: none !important;
+  border: none;
+}
+
 body {
   font-family: "elza", sans-serif;
   font-weight: 400;
@@ -93,6 +98,7 @@ a:hover .bi-arrow-right {
   font-size: 140%;
   font-family: "elza", sans-serif;
   font-weight: 700;
+  color: black !important;
 }
 .imgcard .content-imgcard .card-miscinfo {
   font-size: 80%;
@@ -153,4 +159,18 @@ a:hover .bi-arrow-right {
 }
 .showcase-header-text .container-narrow p {
   font-size: 1.5em;
+}
+
+.btn {
+  transition: linear 0.2s;
+  font-weight: 700 !important;
+  border-radius: 0 !important;
+}
+
+.btn-lg {
+  border-radius: 0 !important;
+}
+
+.dark-card {
+  background-color: #3E404F;
 }/*# sourceMappingURL=style.css.map */
