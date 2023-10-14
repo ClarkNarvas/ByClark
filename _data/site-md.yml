@@ -1,9 +1,7 @@
-site-title: By Clark Narvas 
-description: 
+site-title: By Clark Narvas
+description: "Create an impact "
 site-url: by.clarknarvas.com
-imprint: "Copyright Clark Narvas"
-image:
-  - /uploads/standing-up-for-you.png
-
-site-live: false
-site-darkpage-reason: "This site is coming soon - stay tuned!"
+imprint: (C) Copyright Clark Narvas 2023
+image: https://res.cloudinary.com/dd8qv953j/image/upload/v1697314159/by_clark_y3gnh6.png
+site-live: true
+site-darkpage-reason: This site is coming soon - stay tuned!
