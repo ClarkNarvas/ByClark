@@ -5,5 +5,5 @@ imprint: "Copyright Clark Narvas"
 image:
   - /uploads/standing-up-for-you.png
 
-site-live: true
+site-live: false
 site-darkpage-reason: "This site is coming soon - stay tuned!"

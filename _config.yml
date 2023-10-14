@@ -31,6 +31,8 @@ plugins:
 collections:
   projects:
     output: true
+  pages:
+    output: true
     
 
 pagination:
