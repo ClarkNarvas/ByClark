@@ -1,0 +1,38 @@
+{% include core/top.html %}
+{% include coreui/header.html %}
+
+
+<div style="margin-top: 10vh;"></div>
+<div class="container">
+    <div class="row">
+
+        {% for post in paginator.posts %}
+            {% include ui/indexing/imgcard.html %}
+        {% endfor %}
+    </div>
+    </div>
+
+
+    <div class="tac mt-5">
+    {% if paginator.total_pages > 1 %}
+        {% if paginator.next_page %}
+        <a href="{{ paginator.next_page_path }}" class="btn btn-secondary next">Past</a>
+      {% else %}
+  
+      {% endif %}
+  
+        {% if paginator.previous_page %}
+        <a href="{{ paginator.previous_page_path }}" class="btn btn-primary previous">
+          Future
+        </a>
+      {% else %}
+  
+      {% endif %}
+  {% endif %}
+  
+    </div>
+</div>
+
+
+{% include coreui/footer.html %}
+{% include core/bottom.html %}

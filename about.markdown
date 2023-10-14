@@ -1,10 +1,10 @@
 ---
 layout: post
-title: About
+title: About Clark Narvas
 permalink: /about/
 ---
 
-![Clark Narvas using computer](/img/clark-on-computer.jpg)
+![Clark Narvas using computer](/uploads/clark-on-computer.jpg)
 ## Clark Narvas: Creating an impact for non-profits, individuals and businesses. 
 
 <br>

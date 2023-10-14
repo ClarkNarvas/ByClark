@@ -1,3 +1,4 @@
+$primary: #DE3C4B;
 $primary_t1: #DE3C4B;
 $primary_t2: #c52130;
 $primary_t3: #f4c3c7;
@@ -11,6 +12,7 @@ $primary_t9: #fbeaec;
 $primary_shadow: rgba(222, 60, 75, 0.5);
 $primary_text_color_dark_bright: #fff;
 
+$secondary: #D7C0D0;
 $secondary_t1: #D7C0D0;
 $secondary_t2: #c3a0b8;
 
@@ -36,7 +38,7 @@ $tertiary: #EFF0D1;
   border: none;
 }
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css");
-@import "node_modules/bootstrap/dist/css/bootstrap.css";
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
 @import url("https://use.typekit.net/meh5uoe.css");
 
 
@@ -46,6 +48,7 @@ body {
   font-family: "elza", sans-serif;
   font-weight: 400;
   font-style: normal;
+  
 }
 
 .thinner {
@@ -94,25 +97,34 @@ a:hover {
     }
 
     a.clarknarvasheader:hover {
-
         color: $primary_t1 !important;
     }
 }
 
 
 .imgcard {
-  transition: 0.5s ease-in-out;
+  transition: 0.3s ease-in-out;
   font-size: 120%;
   
 
   .img-imgcard {
-    background-image: url('/assets/branding/placeholder.png');
+    background-image: url('/assets/branding/placeholder.webp');
     background-size: 100%;
     background-position: center;
+    display: grid;
     z-index: -1;
+    overflow: none;
+
+    img {
+      height: 100%;
+      object-fit: cover;
+      object-position: center center;
+    }
 
     
   }
+
+
 
   
   .content-imgcard {
@@ -167,8 +179,8 @@ a:hover {
 }
 
 .imgcard:active {
-  transition: 0.5s ease-in-out;
-  transform:scale(0.9);
+  transition: 0.2s ease-in-out;
+  transform:scale(0.8);
 
 }
 
@@ -200,6 +212,8 @@ a:hover {
 .showcase-header-text {
   height: 60vh;
   display: grid;
+  padding-left: 30px;
+  padding-right: 30px;
   .container-narrow {
     margin-top: auto;
     margin-bottom: auto;
@@ -210,7 +224,8 @@ a:hover {
     }
 
     h1 {
-      font-size: 4.5em;
+      font-size: 7.5em;
+      line-height: 1em;
     }
 
     p {
@@ -220,11 +235,23 @@ a:hover {
 }
 
 
+.showcase-header-text-narrow {
+  height: 40vh !important;
+  h1 {
+    font-size: 6.5em !important;
+    line-height: 1em;
+  }
+}
+
 
 .btn {
   transition: linear 0.2s;
   font-weight: 700 !important;
   border-radius: 0 !important;
+}
+
+.btn-primary {
+  color: white !important;
 }
 
 .btn-lg {

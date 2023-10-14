@@ -4,7 +4,7 @@ title:  "Minesh Parekh for City Council"
 description: "Sheffield Transformed "
 date:   2022-05-05 07:44:56 +0000
 skill: 'Website Development, Social Media Management, Video Production'
-img: '/img/minesh slide.png'
+img: '/uploads/minesh slide.png'
 ---
 
 

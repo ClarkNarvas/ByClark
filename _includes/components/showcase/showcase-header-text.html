@@ -1,7 +1,6 @@
-<div class="showcase-header-text">
+<div class="showcase-header-text {% if include.size == 'narrow' %} showcase-header-text-narrow {%endif%} {% if include.bg == 'secondary' %}bg-secondary{% elsif include.bg == 'tertiary' %}bg-tertiary {% else %}bg-light{%endif%}">
     <div class="container-narrow">
-        <span class="name-role">CLARK NARVAS</span>
-        <h1>{{include.title}}</h1>
+        <h1 class="special">{{include.title}}</h1>
         <p>{{include.description}}</p>
     </div>
 </div>

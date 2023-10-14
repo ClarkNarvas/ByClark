@@ -71,11 +71,12 @@ a:hover .bi-arrow-right {
 }
 
 .imgcard {
-  transition: 0.5s ease-in-out;
+  transition: 0.3s ease-in-out;
   font-size: 120%;
+  transform: scale(0.95);
 }
 .imgcard .img-imgcard {
-  background-image: url("/assets/branding/placeholder.png");
+  background-image: url("/assets/branding/placeholder.webp");
   background-size: 100%;
   background-position: center;
   z-index: -1;
@@ -115,6 +116,9 @@ a:hover .bi-arrow-right {
   transition: 0.3s ease-in-out;
 }
 
+.imgcard:hover {
+  transform: scale(1);
+}
 .imgcard:hover .content-imgcard {
   transform: translateY(-20px);
 }
@@ -145,6 +149,8 @@ a:hover .bi-arrow-right {
 .showcase-header-text {
   height: 60vh;
   display: grid;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 .showcase-header-text .container-narrow {
   margin-top: auto;
@@ -155,7 +161,8 @@ a:hover .bi-arrow-right {
   font-weight: 500;
 }
 .showcase-header-text .container-narrow h1 {
-  font-size: 4.5em;
+  font-size: 7.5em;
+  line-height: 1em;
 }
 .showcase-header-text .container-narrow p {
   font-size: 1.5em;
