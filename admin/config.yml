@@ -25,6 +25,22 @@ collections:
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Permalink", name: "permalink", widget: "string"}
       - {label: "Featured Image", name: "img", widget: "image"}
+      - {label: "Skills", name: "skills", widget: "text"}
       - {label: "Body", name: "body", widget: "markdown"}
+  - name: 'Configuration'
+    label: '⚙️ Configuration'
+    editor:
+      preview: false
+    files:
+      - label: 'Site Details'
+        name: 'site-details'
+        file: '_data/site-md.yml'
+        fields:
+          - {label: "Title", name: "site-title", widget: "string"}
+          - {label: "Description", name: "description", widget: "string"}
+          - {label: "Site Url", name: "site-url", widget: "string"}
+          - {label: "Site Imprint", name: "imprint", widget: "string"}
+          - {label: "Site Thumbnail Image", name: "image", widget: "image"}
+          - {label: "Site Online", name: "site-live", widget: "boolean", default: true}
 
 
