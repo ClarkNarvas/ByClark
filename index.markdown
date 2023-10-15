@@ -3,7 +3,8 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
-title: Welcome to By Clark
+title: By Clark Narvas // Creating an impact through design, video production and web development 
+description: Hi, I'm Clark Narvas. I create an impact through content creation, front-end development and design. 
 ---
 
 Hi there! - I'm Clark Narvas, I code/produce/design many types of digital media to create lasting, positive change.
