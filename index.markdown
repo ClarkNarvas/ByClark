@@ -3,7 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
-title: By Clark Narvas // Creating an impact through design, video production and web development 
+title: 'By Clark Narvas | Create an impact'
 description: Hi, I'm Clark Narvas. I create an impact through content creation, front-end development and design. 
 image: https://res.cloudinary.com/dd8qv953j/image/upload/v1697314159/by_clark_y3gnh6.png
 ---
