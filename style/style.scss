@@ -303,3 +303,15 @@ a:hover {
     }
   }
 }
+
+.img-loadplaceholder {
+  img {
+    background-image: url("/assets/branding/placeholder.webp");
+    background-size: cover;
+  }
+}
+
+img.img-loadplaceholder {
+  background-image: url("/assets/branding/placeholder.webp");
+  background-size: cover;
+}
