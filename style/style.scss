@@ -210,18 +210,15 @@ a:hover {
 }
 
 .showcase-header-text {
-  height: 60vh;
+  min-height: 60vh;
   display: grid;
   padding-left: 30px;
   padding-right: 30px;
+  container: showcase-header;
   .container-narrow {
     margin-top: auto;
     margin-bottom: auto;
 
-    .name-role {
-      font-size: 2em;
-      font-weight: 500;
-    }
 
     h1 {
       font-size: 7.5em;
@@ -234,12 +231,34 @@ a:hover {
   }
 }
 
+@media only screen and (max-width: 700px) {
+  .showcase-header-text {
+    h1 {
+      font-size: 4em !important;
+    }
+    p {
+      font-size: 1.2em !important;
+    }
+  }
+
+  .post-head {
+    h1 {
+      font-size: 4em !important;
+    }
+    span {
+      font-size: 1.2em !important;
+    }
+  }
+
+ 
 
 .showcase-header-text-narrow {
   height: 40vh !important;
   h1 {
     font-size: 6.5em !important;
     line-height: 1em;
+  }
+  container: showcase-header;
   }
 }
 
@@ -264,6 +283,23 @@ a:hover {
   background-color: #3E404F;
 }
 
-.blLxvv {
-  font-family: 'Elza', sans-serif !important;
-} 
+.navbar-transparent {
+  background-color: #00000000 !important;
+
+  .container {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.588);
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .navbar-transparent {
+    background-image: url(/assets/branding/gradientnoise.png);
+    background-repeat:repeat;
+    border-bottom: 1px solid black;
+    backdrop-filter: blur(50px);
+
+    .container {
+      border-bottom: none;
+    }
+  }
+}

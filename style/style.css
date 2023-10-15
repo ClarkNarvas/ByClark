@@ -12106,8 +12106,8 @@ a:hover .bi-arrow-right {
 }
 
 .imgcard:active {
-  transition: 0.5s ease-in-out;
-  transform: scale(0.9);
+  transition: 0.2s ease-in-out;
+  transform: scale(0.8);
 }
 
 .tac {
@@ -12129,18 +12129,15 @@ a:hover .bi-arrow-right {
 }
 
 .showcase-header-text {
-  height: 60vh;
+  min-height: 60vh;
   display: grid;
   padding-left: 30px;
   padding-right: 30px;
+  container: showcase-header;
 }
 .showcase-header-text .container-narrow {
   margin-top: auto;
   margin-bottom: auto;
-}
-.showcase-header-text .container-narrow .name-role {
-  font-size: 2em;
-  font-weight: 500;
 }
 .showcase-header-text .container-narrow h1, .showcase-header-text .container-narrow .h1 {
   font-size: 7.5em;
@@ -12150,14 +12147,28 @@ a:hover .bi-arrow-right {
   font-size: 1.5em;
 }
 
-.showcase-header-text-narrow {
-  height: 40vh !important;
+@media only screen and (max-width: 700px) {
+  .showcase-header-text h1, .showcase-header-text .h1 {
+    font-size: 4em !important;
+  }
+  .showcase-header-text p {
+    font-size: 1.2em !important;
+  }
+  .post-head h1, .post-head .h1 {
+    font-size: 4em !important;
+  }
+  .post-head span {
+    font-size: 1.2em !important;
+  }
+  .showcase-header-text-narrow {
+    height: 40vh !important;
+    container: showcase-header;
+  }
+  .showcase-header-text-narrow h1, .showcase-header-text-narrow .h1 {
+    font-size: 6.5em !important;
+    line-height: 1em;
+  }
 }
-.showcase-header-text-narrow h1, .showcase-header-text-narrow .h1 {
-  font-size: 6.5em !important;
-  line-height: 1em;
-}
-
 .btn {
   transition: linear 0.2s;
   font-weight: 700 !important;
@@ -12174,4 +12185,24 @@ a:hover .bi-arrow-right {
 
 .dark-card {
   background-color: #3E404F;
+}
+
+.navbar-transparent {
+  background-color: rgba(0, 0, 0, 0) !important;
+}
+.navbar-transparent .container {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.588);
+}
+
+@media only screen and (max-width: 992px) {
+  .navbar-transparent {
+    background-image: url(/assets/branding/gradientnoise.png);
+    background-repeat: repeat;
+    border-bottom: 1px solid black;
+    -webkit-backdrop-filter: blur(50px);
+            backdrop-filter: blur(50px);
+  }
+  .navbar-transparent .container {
+    border-bottom: none;
+  }
 }/*# sourceMappingURL=style.css.map */
