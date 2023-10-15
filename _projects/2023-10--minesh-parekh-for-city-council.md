@@ -5,6 +5,7 @@ description: "Sheffield Transformed "
 date: 2022-05-05T20:11:12.343Z
 permalink: mineshparekh
 img: https://res.cloudinary.com/dd8qv953j/image/upload/c_pad,w_1280,h_720/v1697314478/MP_chokzv.png
+img-alt: "Minesh Parekh for City Council on a red background"
 skills: Website development, Brand design, Video editing
 ---
 ![Minesh Parekh for Crookes & Crosspool](https://res.cloudinary.com/dd8qv953j/image/upload/v1697314478/MP_chokzv.png "Minesh Parekh for Crookes & Crosspool")

@@ -5,6 +5,7 @@ description: Let's get South Yorkshire moving
 date: 2022-01-01T22:43:41.298Z
 permalink: /lewissymayor2022
 img: https://res.cloudinary.com/dd8qv953j/image/upload/v1697320262/Let_s_get_SY_moving_pffazf.png
+img-alt: "Lewis Dagnall for South Yorkshire Mayor poster"
 skills: Graphic Design, Livestreaming
 ---
 During Lewis Dagnall’s campaign to be Labour’s candidate for South Yorkshire Mayor, I created social media posts for the campaign used for member mobilisation and targeted advertisements. 
