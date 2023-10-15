@@ -18,8 +18,8 @@
 
     <meta property="og:title" content="{%if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}"/>
     <meta property="og:description" content="{{ page.description }}"/>
-    <meta property="og:url" content="https://by.clarknarvas.com{{ page.url }}"/>
-    <meta property="og:image" content="{% if page.featured-image %}https://by.clarknarvas.com{{ page.featured-image }}{% else %}https://by.clarknarvas.com{{site.data.site-md.site-img}}{% endif %}"/>
+    <meta property="og:url" content="{{ page.url }}"/>
+    <meta property="og:image" content="{% if page.image %}{{ page.image }}{% else %}https://res.cloudinary.com/dd8qv953j/image/upload/v1697314159/by_clark_y3gnh6.png{% endif %}"/>
     <meta property="og:image:width" content="1920"/>
     <meta property="og:image:height" content="1080"/>
 

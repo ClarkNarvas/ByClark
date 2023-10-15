@@ -5,6 +5,7 @@
 layout: home
 title: By Clark Narvas // Creating an impact through design, video production and web development 
 description: Hi, I'm Clark Narvas. I create an impact through content creation, front-end development and design. 
+image: https://res.cloudinary.com/dd8qv953j/image/upload/v1697314159/by_clark_y3gnh6.png
 ---
 
 Hi there! - I'm Clark Narvas, I code/produce/design many types of digital media to create lasting, positive change.
