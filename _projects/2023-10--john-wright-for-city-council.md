@@ -2,9 +2,10 @@
 layout: post
 title: John Wright for City Council
 description: "Experience to Deliver "
-date: 2023-10-14T21:55:14.072Z
+date: 2023-05-05T21:55:14.072Z
 permalink: /johnwright2023
 img: https://res.cloudinary.com/dd8qv953j/image/upload/v1697320691/Website_cover_nkvk49.png
+img-alt: "John Wright standing in the Bole Hills "
 skills: Brand Design, Video Editing, Social Media
 ---
 ![John Wright for Crookes & Crosspool - Experience to Deliver](https://res.cloudinary.com/dd8qv953j/image/upload/v1697320703/JW_Cover_Photo_1_._bhmthv.png "John Wright for Crookes & Crosspool")
