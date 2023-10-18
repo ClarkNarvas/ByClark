@@ -1,25 +1,24 @@
 ---
+title: This page can't be found.
 permalink: /404.html
-layout: default
+layout: post
 ---
 
-<style type="text/css" media="screen">
-  .container {
-    margin: 10px auto;
-    max-width: 600px;
-    text-align: center;
-  }
-  h1 {
-    margin: 30px 0;
-    font-size: 4em;
-    line-height: 1;
-    letter-spacing: -1px;
-  }
-</style>
 
 <div class="container">
-  <h1>404</h1>
+  <p class="mb-5" style="text-align: center;">But while you're here, take a look at what I've been working on recently:</p>
+</div>
 
-  <p><strong>Page not found :(</strong></p>
-  <p>The requested page could not be found.</p>
+</div>
+
+<div class="container" style="z-index: 100;position: relative;">
+  <div class="row">
+
+      {% assign cn-projects = site.projects limit:4  | sort: 'date' | reverse %}
+
+      {% for post in cn-projects limit:4  | sort: 'date' | reverse %}
+          {% include ui/indexing/imgcard.html %}
+      {% endfor %}
+  </div>
+  </div>
 </div>
