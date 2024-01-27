@@ -293,18 +293,23 @@ a:hover {
 
 .navbar-float {
   background-color: #00000000 !important;
+  font-size: 120%;
 
   .container {
-    border-bottom: 1px solid rgba(0, 0, 0, 0.588);
+    background-color: rgba(234, 234, 234, 0.442);
+    padding-top: 10px;
+    margin-top: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    backdrop-filter: blur(20px);
   }
 }
 
 @media only screen and (max-width: 992px) {
   .navbar-float {
-    background-image: url(/assets/branding/gradientnoise.png);
     background-repeat:repeat;
-    border-bottom: 1px solid black;
-    backdrop-filter: blur(50px);
+    padding-left: 25px;
+    padding-right: 25px;
 
     .container {
       border-bottom: none;
@@ -329,4 +334,9 @@ img.img-loadplaceholder {
 
 div.content {
   min-height: 90vh;
+}
+
+.nav-item {
+  padding-left: 10px;
+  padding-right: 10px;
 }
