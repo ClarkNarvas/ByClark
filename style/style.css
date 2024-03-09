@@ -12194,22 +12194,20 @@ a:hover .bi-arrow-right {
   background-color: #3E404F;
 }
 
-.navbar-transparent {
+.navbar-float {
   background-color: rgba(0, 0, 0, 0) !important;
 }
-.navbar-transparent .container {
+.navbar-float .container {
   border-bottom: 1px solid rgba(0, 0, 0, 0.588);
+  padding-bottom: 5px;
 }
 
 @media only screen and (max-width: 992px) {
-  .navbar-transparent {
-    background-image: url(/assets/branding/gradientnoise.png);
-    background-repeat: repeat;
+  .navbar-float {
     border-bottom: 1px solid black;
-    -webkit-backdrop-filter: blur(50px);
-            backdrop-filter: blur(50px);
+    background-color: white !important;
   }
-  .navbar-transparent .container {
+  .navbar-float .container {
     border-bottom: none;
   }
 }
@@ -12227,4 +12225,21 @@ img.img-loadplaceholder {
 
 div.content {
   min-height: 90vh;
+}
+
+#calltoaction {
+  color: white;
+  display: grid;
+  height: 40vh;
+  margin-top: 100px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+#calltoaction .container-narrow {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+#calltoaction #email {
+  font-size: 200%;
+  color: white;
 }/*# sourceMappingURL=style.css.map */
