@@ -22,9 +22,9 @@ Inspired by movie posters, I created a design layout that put Sheffield Labour f
 
 In 2024, this was paired with a new design element: **the ‘on the up’ arrow,** which aimed to create a feeling of upward momentum and optimism and acted as a design agent that emphasised specific information. It is featured throughout social media posts, banners and the manifesto document.
 
-![](https://res.cloudinary.com/dd8qv953j/image/upload/v1721563007/May_2024_Highlights_zled6i.png)
+![Sheffield Labour Elections May 2024 Brand](https://res.cloudinary.com/dd8qv953j/image/upload/v1721563007/May_2024_Highlights_zled6i.png)
 
-![](https://res.cloudinary.com/dd8qv953j/image/upload/v1721563016/Sheffield_Labour_Manifesto_qd0az3.png)
+![Sheffield Labour Manifesto](https://res.cloudinary.com/dd8qv953j/image/upload/v1721563016/Sheffield_Labour_Manifesto_qd0az3.png)
 
 These design systems were created to match the Labour Party's national branding, using the same fonts and colours. 
 
