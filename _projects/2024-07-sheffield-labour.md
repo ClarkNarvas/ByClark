@@ -16,7 +16,7 @@ A new logo was created, consistent with Labour Party branding and with in-line a
 
 ![Sheffield Labour stacked logo on top, Sheffield Labour in-line logo on the bottom](https://res.cloudinary.com/dd8qv953j/image/upload/v1721561202/Sheffield_Labour_Logos_eab2so.png)
 
-Inspired by movie posters, I created a design layout that put Sheffield Labour front and centre on its achievements and policies. This was coupled with Canva templates that were easy for organisers, councillors and activists to use.
+Inspired by movie posters, I created a design layout that put Sheffield Labour front and centre on its achievements and policies. This was coupled with easy-to-use Canva templates that were distributed across organisers, councillors and activists.
 
 ![Post tiles of Sheffield Labour posts](https://res.cloudinary.com/dd8qv953j/image/upload/v1721562205/Post_tiles_s9nrjp.png)
 
@@ -28,4 +28,4 @@ In 2024, this was paired with a new design element: **the ‘on the up’ arrow,
 
 These design systems were created to match the Labour Party's national branding, using the same fonts and colours. 
 
-Sheffield Labour’s 2024 campaign broke the deadlock in Sheffield City Council with an **increase of 5 seats** and a clear mandate that the city has backed our plan to build a better Sheffield.
+Sheffield Labour’s 2024 campaign broke the deadlock in Sheffield City Council with an **increase of 5 seats.** Sheffield's voters delivered a clear mandate that they want Labour to continue building a better Sheffield.
